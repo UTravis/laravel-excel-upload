@@ -23,4 +23,5 @@ Route::get('/', function () {
 });
 
 
-Route::post('/upload', [UserController::class, 'import'])->name('students.upload');
+Route::post('/import', [UserController::class, 'import'])->name('students.upload');
+Route::get('/export', [UserController::class, 'export'])->name('students.export');

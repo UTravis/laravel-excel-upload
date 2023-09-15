@@ -25,6 +25,7 @@
                     <input type="submit" class="btn btn-secondary" value="Upload">
                 </div>
             </form>
+            <a name="" id="" class="btn btn-success mt-3" href="{{route('students.export')}}" role="button">Download</a>
         </div>
     </div>
     <div class="row">

@@ -56,6 +56,12 @@ return [
             'throw' => false,
         ],
 
+        's4' => [
+            'driver' => 'local',
+            'root' => public_path('imports'),
+            'visibility' => 'public'
+        ],
+
     ],
 
     /*
